@@ -1,4 +1,4 @@
-﻿using CoreCourse.RazorBasics.Domain.Entities;
+﻿using CoreCourse.RazorBasics.Core.Entities;
 using System.Collections.Generic;
 
 namespace CoreCourse.RazorBasics.ViewModels

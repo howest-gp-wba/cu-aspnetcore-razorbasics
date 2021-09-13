@@ -1,5 +1,5 @@
-﻿using CoreCourse.RazorBasics.Domain.Entities;
-using CoreCourse.RazorBasics.Domain.Services;
+﻿using CoreCourse.RazorBasics.Core.Entities;
+using CoreCourse.RazorBasics.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

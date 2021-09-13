@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CoreCourse.RazorBasics.ViewModels;
-using CoreCourse.RazorBasics.Domain.Services;
+using CoreCourse.RazorBasics.Services;
 
 namespace CoreCourse.RazorBasics.Controllers
 {

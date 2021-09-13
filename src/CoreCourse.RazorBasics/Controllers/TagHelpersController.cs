@@ -1,4 +1,3 @@
-using CoreCourse.RazorBasics.Domain.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -9,9 +8,9 @@ namespace CoreCourse.RazorBasics.Controllers
 {
     public class TagHelpersController : Controller
     {
-        private IHostingEnvironment _hostingEnvironment;
+        private IWebHostEnvironment _hostingEnvironment;
 
-        public TagHelpersController(IHostingEnvironment hostingEnvironment)
+        public TagHelpersController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
         }

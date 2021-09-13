@@ -1,10 +1,10 @@
-﻿using CoreCourse.RazorBasics.Domain.Entities;
+﻿using CoreCourse.RazorBasics.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CoreCourse.RazorBasics.Domain.Services
+namespace CoreCourse.RazorBasics.Services
 {
     /// <summary>
     /// Simulates a service which grabs NewsArticle objects from a datasource.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CoreCourse.RazorBasics.Domain.Entities
+namespace CoreCourse.RazorBasics.Core.Entities
 {
     public class NewsArticle
     {
