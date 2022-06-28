@@ -34,20 +34,20 @@ ASP.NET Core is a cross-platform, high-performance, open-source framework for bu
                 new NewsArticle
                 {
                     Id = 2, CreationDate = DateTime.Now.AddDays(-6), Author = "S. Derdeyn", IsPublished = true,
-                    Title = "ASP.NET Core 2.1 is here!",
+                    Title = ".NET 6 is here!",
                     Content = @"
-<p>The ASP.NET Core team has released ASP.NET 2.1.</p>
-<p>You can find all the features and bug fixes on <a href=""https://github.com/aspnet/Home/releases/tag/2.1.4\"">this page</a>.</p>
+<p>Download .NET 6.0</p>
+<p>Head over to <a href=""https://dotnet.microsoft.com/en-us/download/dotnet/6.0\"">this page</a>.</p>
 "
                 },
                 new NewsArticle
                 {
                     Id = 3, CreationDate = DateTime.Now.AddDays(-5), Author = "S. Derdeyn", IsPublished = true,
-                    Title = "Did you browse the ASP.NET Core MVC Sources yet?",
+                    Title = "Did you browse the ASP.NET Core Sources yet?",
                     Content = @"
 <p>As you might know, ASP.NET Core is completely open source. Everything can be found on github.</p>
-<p>This includes the source code of the ASP.NET Core MVC packages.</p>
-<p>Why don't you go over to <a href=""https://github.com/aspnet/Mvc/tree/release/2.1/src"">github and have a look</a>!</p>
+<p>This includes the source code of the ASP.NET Core packages.</p>
+<p>Why don't you go over to <a href=""https://github.com/dotnet/aspnetcore"">github and have a look</a>!</p>
 "
                 }
             };
