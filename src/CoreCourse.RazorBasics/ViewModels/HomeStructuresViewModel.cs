@@ -1,6 +1,6 @@
 ﻿namespace CoreCourse.RazorBasics.ViewModels
 {
-    public class HomeStructuresVm
+    public class HomeStructuresViewModel
     {
         /// <summary>
         /// Holds the name of the player

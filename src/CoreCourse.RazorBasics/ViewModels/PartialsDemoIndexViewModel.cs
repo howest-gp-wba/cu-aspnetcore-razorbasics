@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CoreCourse.RazorBasics.ViewModels
 {
-    public class PartialsDemoIndexVm
+    public class PartialsDemoIndexViewModel
     {
         public IEnumerable<NewsArticle> NewsArticles { get; set; }
     }

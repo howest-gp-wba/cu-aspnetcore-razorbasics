@@ -1,6 +1,6 @@
 ﻿namespace CoreCourse.RazorBasics.ViewModels
 {
-    public class HomeDirectivesVm
+    public class HomeDirectivesViewModel
     {
         /// <summary>
         /// Holds the cell information in a 2 dimensional array of booleans

@@ -1,6 +1,6 @@
 ﻿namespace CoreCourse.RazorBasics.ViewModels
 {
-    public class HomeExpressionsVm
+    public class HomeExpressionsViewModel
     {
         public string UserName { get; set; }
         public string UserPrimaryMail { get; set; }

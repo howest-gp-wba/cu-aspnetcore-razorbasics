@@ -19,7 +19,7 @@ namespace CoreCourse.RazorBasics.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var model = new PartialsDemoIndexVm();
+            var model = new PartialsDemoIndexViewModel();
             model.NewsArticles = await _newsArticleService.GetNewsArticles();
 
 

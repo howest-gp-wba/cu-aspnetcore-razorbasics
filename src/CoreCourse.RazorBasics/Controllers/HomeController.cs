@@ -14,7 +14,7 @@ namespace CoreCourse.RazorBasics.Controllers
 
         public IActionResult Expressions()
         {
-            var vm = new HomeExpressionsVm
+            var vm = new HomeExpressionsViewModel
             {
                 UserName = "siegfried",
                 UserPrimaryMail = "siegfried@example.com",
@@ -34,7 +34,7 @@ namespace CoreCourse.RazorBasics.Controllers
         public IActionResult Structures()
         {
             Random r = new Random();
-            var vm = new HomeStructuresVm
+            var vm = new HomeStructuresViewModel
             {
                 PlayerName = "siegfried",
                 DiceValues = new int[] { r.Next(6) + 1, r.Next(6) + 1 } //fill two dice with random values between 1 and 6 (inclusive)
@@ -43,7 +43,7 @@ namespace CoreCourse.RazorBasics.Controllers
         }
 
         [HttpPost]
-        public IActionResult Structures(HomeStructuresVm structures)
+        public IActionResult Structures(HomeStructuresViewModel structures)
         {
             Random r = new Random();
             structures.DiceValues = new int[structures.NumberOfDice];
@@ -57,7 +57,7 @@ namespace CoreCourse.RazorBasics.Controllers
         public IActionResult Directives()
         {
             Random r = new Random();
-            HomeDirectivesVm viewmodel = new HomeDirectivesVm();
+            HomeDirectivesViewModel viewmodel = new HomeDirectivesViewModel();
             //generate maze cells
             viewmodel.MazeCells = new bool[30, 30];
             for (int x = 0; x < viewmodel.MazeCells.GetUpperBound(0); x++)
